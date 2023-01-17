@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <script src="https://cdn.tailwindcss.com"></script>
-    <script>
+    <script  src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'>
+      
         tailwind.config = {
           theme: {
             screens: {
@@ -19,7 +20,10 @@
             }
           }
         }
+       
       </script>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <title>Paytm: Secure & Fast UPI Payments, Recharge Mobile & Pay Bills</title>
 </head>
 
@@ -60,7 +64,7 @@
 
     <!-- Main Section -->
     <section id="hero">
-      <div class="container flex flex-col-reverse items-center md:flex-row mx-auto md:space-x-6 ">
+      <div class="container flex flex-col-reverse items-center md:flex-row mx-auto md:space-x-6 px-10 ">
         <!-- Main Left Hand -->
         <!-- <div class="flex flex-col gap-12 max-w-2xl pt-10 sm:pt-0"></div> -->
         <!-- <div class="flex flex-col md:w-1/2 justify-center items-center"> -->
@@ -118,18 +122,101 @@
     </section>
 
     <!-- Recharge & Pay bills Section -->
-    <section>
+    <section class="bg-[#00baf2] text-white mt-20">
+      
+      <div class="max-w-scrren-2xl mx-auto py-16 px-4">
+        <h1 class="text-4xl font-bold ">Recharge & Pay bills on Paytm.</h1>
 
+        <div class="flex flex-wrap justify-start mt-6 ">
+          <!-- card 01 -->
+          <div class="py-4 pl-4 pr-3 mr-4 min-w-fit rounded-lg cursor-pointer hover:bg-[#01AFE3] transition-all duration-500">
+            <div><img src="./assets/cards/Recharge/Recharge.png" alt="prepaid" class="w-14"></div>
+            <div class="flex flex-col mt-4">
+              <span>Recharge</span>
+              <span class="font-semibold flex flex-col items-center">
+                Prepaid Mobile 
+                <ion-icon name="chevron-forward"></ion-icon>
+                <!-- <i style='font-size:24px' class='fas'>&#xf105;</i> -->
+              </span>
+            </div>
+          </div>
+          <!-- card 02 -->
+          <div class="py-4 pl-4 pr-3 mr-4 min-w-fit rounded-lg cursor-pointer hover:bg-[#01AFE3] transition-all duration-500">
+            <div><img src="./assets/cards/Recharge/Elec.png" alt="prepaid" class="w-14"></div>
+            <div class="flex flex-col mt-4">
+              <span>Pay</span>
+              <span class="font-semibold flex items-center gap-1">
+                Electricity Bill
+                <ion-icon name="chevron-forward"></ion-icon>
+                <!-- <i style='font-size:24px' class='fas'>&#xf105;</i> -->
+              </span>
+            </div>
+          </div>
+          <!-- card 03 -->
+          <div class="py-4 pl-4 pr-3 mr-4 min-w-fit rounded-lg cursor-pointer hover:bg-[#01AFE3] transition-all duration-500">
+            <div><img src="./assets/cards/Recharge/DTH.png" alt="prepaid" class="w-14"></div>
+            <div class="flex flex-col mt-4">
+              <span>Recharge</span>
+              <span class="font-semibold flex items-center gap-1">
+                DTH Connection
+                <ion-icon name="chevron-forward"></ion-icon>
+                <!-- <i style='font-size:24px' class='fas'>&#xf105;</i> -->
+              </span>
+            </div>
+          </div>
+          <!-- card 04 -->
+          <div class="py-4 pl-4 pr-3 mr-4 min-w-fit rounded-lg cursor-pointer hover:bg-[#01AFE3] transition-all duration-500">
+            <div><img src="./assets/cards/Recharge/GasCy.png" alt="prepaid" class="w-14"></div>
+            <div class="flex flex-col mt-4">
+              <span>Book</span>
+              <span class="font-semibold flex items-center gap-1">
+                Gas Cylinder
+                <ion-icon name="chevron-forward"></ion-icon>
+                <!-- <i style='font-size:24px' class='fas'>&#xf105;</i> -->
+              </span>
+            </div>
+          </div>
+          <!-- card 05 -->
+          <div class="py-4 pl-4 pr-3 mr-4 min-w-fit rounded-lg cursor-pointer hover:bg-[#01AFE3] transition-all duration-500">
+            <div><img src="./assets/cards/Recharge/Broadband.png" alt="prepaid" class="w-14"></div>
+            <div class="flex flex-col mt-4">
+              <span>Pay</span>
+              <span class="font-semibold flex items-center gap-1">
+                Broadband & Landline Bill
+                <ion-icon name="chevron-forward"></ion-icon>
+                <!-- <i style='font-size:24px' class='fas'>&#xf105;</i> -->
+              </span>
+            </div>
+          </div>
+          <!-- card 06 -->
+          <div class="py-4 pl-4 pr-3 mr-4 min-w-fit rounded-lg cursor-pointer hover:bg-[#01AFE3] transition-all duration-500">
+            <div><img src="./assets/cards/Recharge/Edu.png" alt="prepaid" class="w-14"></div>
+            <div class="flex flex-col mt-4">
+              <span>Pay</span>
+              <span class="font-semibold flex items-center gap-1">
+                Education Fee
+                <ion-icon name="chevron-forward"></ion-icon>
+                <!-- <i style='font-size:24px' class='fas'>&#xf105;</i> -->
+              </span>
+            </div>
+          </div>
+          <!-- card 07 -->
+          <div class="py-4 pl-4 pr-3 mr-4 min-w-fit rounded-lg cursor-pointer hover:bg-[#01AFE3] transition-all duration-500">
+            <div><img src="./assets/cards/Recharge/AllPay.png" alt="prepaid" class="w-14"></div>
+            <div class="flex flex-col mt-4">
+              <span>All</span>
+              <span class="font-semibold flex items-center gap-1">
+                Payment Services
+                <ion-icon name="chevron-forward"></ion-icon>
+                <!-- <i style='font-size:24px' class='fas'>&#xf105;</i> -->
+              </span>
+            </div>
+          </div>
+          </div>
+      </div>
     </section>
-    <!-- card 01 -->
-    <!-- card 02 -->
-    <!-- card 03 -->
-    <!-- card 04 -->
-    <!-- card 05 -->
-    <!-- card 06 -->
-    <!-- card 07 -->
-
     <!-- Book & Buy on Paytm Section -->
+    <section class="bg-[#0f4a8a] text-white mt-20">
     <!-- card 01 -->
     <!-- card 02 -->
     <!-- card 03 -->
@@ -137,7 +224,7 @@
     <!-- card 05 -->
     <!-- card 06 -->
     <!-- card 07 -->
-
+  </section>
 <!-- Paytm Payment Instruments Section -->
 <!-- Feature 01 -->
 <!-- Feature 02 -->
@@ -185,7 +272,7 @@
 <!-- card 05 -->
 <!-- Footer Section  -->
 <footer class="text-black body-font pt-20 bg-[#f5f7fa]">
-  <div class="max-w-screen-xl mx-auto pb-52">
+  <div class="max-w-screen-xl mx-auto pb-52 px-10">
     <div class="flex flex-col justify-between">
       <div class="flex items-center">
         <p class="text-xl font-semibold mr-[1rem]">
